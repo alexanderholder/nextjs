@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-export default function Car({ user }) {
+export default function Page({ user }) {
     const router = useRouter()
     const { id } = router.query
 
